@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and large intermediate outputs (regenerate from scripts)
+*.log
+*.tmp
+outputs/
+output/
+*.npy
+*.npz
+# Keep small result CSVs but ignore large model checkpoints
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.ckpt
+models/
+checkpoints/
+
+# Data (not redistributed; download from sources listed in README.md)
+data/raw/
+data/02_processed/phase2/features/
+data/02_processed/phase2/splits/*.parquet
+*.parquet
